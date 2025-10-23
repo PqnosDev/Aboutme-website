@@ -1,0 +1,80 @@
+/* General stuff */
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top left, #0a0a0f, #111827, #0f172a);
+      color: #e0e0e0;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3 {
+      color: #ffffff;
+    }
+
+    a {
+      color: #00c8ff;
+      text-decoration: none;
+    }
+     /*Text aligns */
+    .CandL {
+      text-align: center;
+      text-align: left;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+      text-shadow: 0 0 15px #00c8ff;
+}
+
+     /* ===== Hero Section ===== */
+    .hero {
+      text-align: center;
+      padding: 100px 20px 60px;
+      background: linear-gradient(135deg, rgba(0, 200, 255, 0.2), rgba(100, 0, 255, 0.1));
+      backdrop-filter: blur(12px);
+    }
+
+    .avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 3px solid #00c8ff;
+      box-shadow: 0 0 25px rgba(0, 200, 255, 0.6);
+      margin-bottom: 20px;
+      object-fit: cover;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      text-shadow: 0 0 20px #00c8ff;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+      color: #b0b0b0;
+    }
+/* Hobbies */
+ .Hobbies {
+      display: grid;
+      gap: 30px;
+      padding: 60px 80px;
+    }
+
+ .Hobby {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 19px;
+      padding: 16px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 20px rgba(0, 200, 255, 0.15);
+      transition: all 0.3s ease;
+      width: 1840px;
+      margin: auto;
+    }
