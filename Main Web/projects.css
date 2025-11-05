@@ -182,7 +182,7 @@ footer p {
   display: inline-block;
   background: rgb(241, 102, 9);
   padding: 10px 30px;
-  border-radius: 60px; /* Makes it rounded */
+  border-radius: 60px; 
   font-family: Arial, sans-serif;
   font-size: 10px;
   font-weight: bold;
@@ -192,9 +192,69 @@ footer p {
   display: inline-block;
   background: rgb(42, 123, 216);
   padding: 10px 30px;
-  border-radius: 60px; /* Makes it rounded */
+  border-radius: 60px; 
   font-family: Arial, sans-serif;
   font-size: 10px;
   font-weight: bold;
   border: 2px solid black;
+}
+.Astro {
+  display: inline-block;
+  background: rgb(145, 113, 206);
+  padding: 10px 30px;
+  border-radius: 60px; 
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+.PHP {
+  display: inline-block;
+  background: rgb(119, 118, 122);
+  padding: 10px 30px;
+  border-radius: 60px; 
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+.Math {
+  display: inline-block;
+  background: rgb(209, 44, 44);
+  padding: 10px 30px;
+  border-radius: 60px; 
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+.Drawing {
+  display: inline-block;
+  background: rgb(201, 28, 37);
+  padding: 10px 30px;
+  border-radius: 60px; 
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+} 
+.Py {
+  display: inline-block;
+  background: rgb(212, 224, 40);
+  padding: 10px 30px;
+  border-radius: 60px; 
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+} 
+.JS {
+ display: inline-block;
+  background: rgb(50, 145, 42);
+  padding: 10px 30px;
+  border-radius: 60px; 
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border: 2px solid black; 
 }
