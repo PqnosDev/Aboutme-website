@@ -1,0 +1,200 @@
+/* projects.css - corrected and cleaned up */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top left, #0a0a0f, #111827, #0f172a);
+  color: #e0e0e0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+a {
+  color: #00c8ff;
+  text-decoration: none;
+}
+
+/* Top button */
+.top-button {
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  background: #00c8ff;
+  color: #0a0a0f;
+  padding: 10px 18px;
+  border-radius: 25px;
+  font-weight: bold;
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.7);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.top-button:hover {
+  background: #0a0a0f;
+  color: #00c8ff;
+  box-shadow: 0 0 30px #00c8ff;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  text-align: center;
+  padding: 100px 20px 60px;
+  background: linear-gradient(135deg, rgba(0, 200, 255, 0.02), rgba(100, 0, 255, 0.02));
+  backdrop-filter: blur(6px);
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid #00c8ff;
+  box-shadow: 0 0 25px rgba(0, 200, 255, 0.6);
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 0 0 20px #00c8ff;
+}
+
+.hero p {
+  font-size: 1.05rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #b0b0b0;
+  line-height: 1.5;
+}
+
+/* ===== Cards Grid (fixed) ===== */
+.cards {
+  display: grid;
+  /* auto-fit lets it adapt responsively, min width 300px */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 60px;
+  padding: 60px 80px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: left;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.05);
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 40px rgba(0, 200, 255, 0.12);
+}
+
+.card h2 {
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+  text-shadow: 0 0 10px rgba(0, 200, 255, 0.08);
+  color: #fff;
+}
+
+.card p {
+  color: #b5b5b5;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.learn-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  background: rgba(0, 200, 255, 0.06);
+  border: 1px solid #00c8ff;
+  border-radius: 8px;
+  color: #00c8ff;
+  font-size: 0.9rem;
+  transition: all 0.25s ease;
+}
+
+.learn-btn:hover {
+  background: #00c8ff;
+  color: #0a0a0f;
+  box-shadow: 0 0 20px #00c8ff;
+}
+
+/* Footer / Socials */
+footer {
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 40px 20px;
+  backdrop-filter: blur(10px);
+  margin-top: 60px;
+}
+
+.socials {
+  margin-bottom: 20px;
+}
+
+.socials a {
+  margin: 0 10px;
+  font-size: 1.3rem;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.socials a:hover {
+  color: #00c8ff;
+  text-shadow: 0 0 10px #00c8ff;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 20px 40px;
+  }
+
+  .cards {
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
+/* Languages */
+.HTML {
+  display: inline-block;
+  background: rgb(241, 102, 9);
+  padding: 10px 30px;
+  border-radius: 60px; /* Makes it rounded */
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+.CSS {
+  display: inline-block;
+  background: rgb(42, 123, 216);
+  padding: 10px 30px;
+  border-radius: 60px; /* Makes it rounded */
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+}
