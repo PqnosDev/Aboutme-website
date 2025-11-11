@@ -19,6 +19,128 @@
       color: #00c8ff;
       text-decoration: none;
     }
+    /* Menu */
+/* ======== MAIN NAVBAR ======== */
+nav.primary-navigation {
+  position: relative;
+  z-index: 100;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(10, 15, 30, 0.8); /* blends into dark gradient */
+  border-bottom: 1px solid rgba(60, 160, 231, 0.15);
+  backdrop-filter: blur(4px);
+  padding: 25px 0;
+  font-family: "Arvo", sans-serif;
+  font-size: 18px;
+}
+
+/* ======== TOP-LEVEL MENU ======== */
+nav.primary-navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+nav.primary-navigation ul li {
+  position: relative;
+}
+
+nav.primary-navigation li a {
+  color: #cfd9e6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav.primary-navigation li a:hover {
+  color: #3ca0e7;
+}
+
+/* ======== FIRST-LEVEL DROPDOWN ======== */
+nav.primary-navigation ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  background: #0b1320; /* same dark tone as navbar */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  padding: 10px 0;
+  transition: all 0.25s ease;
+  min-width: 220px;
+  border: 1px solid rgba(60, 160, 231, 0.2);
+}
+
+/* Show dropdown on hover */
+nav.primary-navigation ul li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  top: 55px;
+}
+
+/* Dropdown list items */
+nav.primary-navigation ul li ul li {
+  display: block;
+  padding: 10px 20px;
+}
+
+nav.primary-navigation ul li ul li a {
+  color: #cfd9e6;
+  display: block;
+  text-decoration: none;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+nav.primary-navigation ul li ul li a:hover {
+  color: #3ca0e7;
+  padding-left: 10px;
+}
+
+/* ======== SECOND-LEVEL DROPDOWN ======== */
+nav.primary-navigation ul li ul li ul.dropdown-sub {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #0b1320; /* same dark color */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  padding: 10px 0;
+  min-width: 200px;
+  border: 1px solid rgba(60, 160, 231, 0.2);
+  transition: all 0.25s ease;
+}
+
+/* Show sub-dropdown on hover */
+nav.primary-navigation ul li ul li:hover > ul.dropdown-sub {
+  visibility: visible;
+  opacity: 1;
+  left: 100%;
+}
+
+/* ======== ACCESSIBILITY & UTILITY ======== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #3ca0e7;
+}
+
+ul li ul li a {
+  transition: all 0.5s ease;
+}
+
+
+
 
     /* ===== Hero Section ===== */
     .hero {
@@ -50,6 +172,21 @@
       margin: 0 auto;
       color: #b0b0b0;
     }
+     /* Website information CSS */
+     #Questionanswer {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      padding: 30px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 20px rgba(0, 200, 255, 0.15);
+      
+      
+      align-items: center; 
+      
+     }
+
    
 
     /* ===== Cards Section ===== */
