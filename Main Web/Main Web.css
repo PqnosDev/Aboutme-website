@@ -2,7 +2,6 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
     }
 
     body {
@@ -172,7 +171,14 @@ ul li ul li a {
       align-items: center; 
       
      }
-
+    #Intro {
+      font-family:cursive;
+       font-weight:400;
+      font-size:larger;
+      font-family: 'Poppins', sans-serif;
+      
+     
+    }
    
 
     /* ===== Cards Section ===== */
