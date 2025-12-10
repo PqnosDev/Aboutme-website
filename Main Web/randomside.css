@@ -1,0 +1,112 @@
+
+.Uber {
+background-color: black;
+color: white;
+ width: 100px;
+height: 36px;
+ border: none;
+ cursor: pointer;
+ }
+
+.Uber:hover {
+ opacity: 0.7;
+}
+
+
+
+
+.Amazo {
+background-color: rgb(255, 216, 20);
+ border: none;
+height: 40px;
+width: 100px;
+border-radius: 10px;
+cursor: pointer;
+ } 
+.Amazo:hover {
+background-color: rgb(214, 182, 22);
+} 
+.GitHub {
+ background-color: rgb(46, 164,79);
+color: white;
+border: none;
+height: 36px;
+ width: 100px;
+border-radius: 10px;
+cursor: pointer;
+ }
+.GitHub:hover {
+box-shadow: 4px 4px 4px rgb(66, 63, 63, 0.20);
+}
+.GitHub {
+    background-color: rgb(46, 164,79);
+            color: white;
+            border: none;
+            height: 36px;
+            width: 100px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .GitHub:hover {
+        box-shadow: 4px 4px 4px rgb(66, 63, 63, 0.20);
+        }  
+        
+
+ .BootGet {
+                    background-color: rgb(148, 85, 155);
+                    color: white;
+                    height: 40px;
+                    width: 100px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                .BootGet:hover {
+                    background-color: rgb(106, 72, 109);
+                }
+                 /* Below this is Download */
+                .Download {
+                    background-color: rgb(254, 255, 255);
+                    color:darkgray;
+                    height: 40px;
+                    width: 100px;
+                    border-style: solid;
+                    border-width: 1px;
+                }
+                .Download:hover {
+                    background-color: darkgray;
+                    color: rgb(254, 255, 255);
+                    transition: background-color 1s; 
+                    transition: color 1s;
+                }
+.Apply {
+            background-color: rgb(10, 102, 194);
+            color: white;
+            height: 40px;
+            width: 175px;
+            border: none;
+            border-radius: 15px;
+        }
+        .Apply:hover {
+            background-color:  rgb(12, 71, 129);
+        }
+        /* Below is Save  button*/
+        .Save {
+            background-color: white;
+            color: blue;
+            border-style: solid;
+            border-width: 1px;
+            border-color: blue;
+            height: 30px;
+            width: 75px;
+            border-radius: 10px;
+        }
+        .Save:hover {
+            border-width: 2px;
+            background-color: aquamarine;
+        }
+       
+            
+        
+        
+    
